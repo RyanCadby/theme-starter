@@ -24,7 +24,7 @@ const injectChanges = true;
 const styleSRC = '../assets/scss/*.scss';
 
 // Path to place the compiled CSS file. Default set to root folder.
-const styleDestination = '../assets/css/';
+const styleDestination = '../dist/css/';
 
 // Available options → 'compact' or 'compressed' or 'nested' or 'expanded'
 const outputStyle = 'compact';
@@ -37,7 +37,7 @@ const precision = 10;
 const jsVendorSRC = '../assets/js/vendor/*.js';
 
 // Path to place the compiled JS vendors file.
-const jsVendorDestination = '../assets/js/';
+const jsVendorDestination = '../dist/vendor/js/';
 
 // Compiled JS vendors file name. Default set to vendors i.e. vendors.js.
 const jsVendorFile = 'vendor';
@@ -45,13 +45,13 @@ const jsVendorFile = 'vendor';
 // JS Custom options.
 
 // Path to JS custom scripts folder.
-const jsCustomSRC = '../assets/js/custom/*.js';
+const jsCustomSRC = '../assets/js/*.js';
 
 // Path to place the compiled JS custom scripts file.
-const jsCustomDestination = '../assets/js/';
+const jsCustomDestination = '../dist/js/';
 
 // Compiled JS custom file name. Default set to custom i.e. custom.js.
-const jsCustomFile = 'custom';
+// const jsCustomFile = 'custom';
 
 // Images options.
 
@@ -61,7 +61,7 @@ const imgSRC = '../assets/images/raw/**/*';
 
 // Destination folder of optimized images.
 // > Must be different from the imagesSRC folder.
-const imgDST = '../assets/images/';
+const imgDST = '../dist/images/';
 
 // >>>>> Watch files paths.
 // Path to all *.scss files inside css folder and inside them.
@@ -71,7 +71,7 @@ const watchStyles = '../assets/scss/**/*.scss';
 const watchJsVendor = '../assets/js/vendor/*.js';
 
 // Path to all custom JS files.
-const watchJsCustom = '../assets/js/custom/*.js';
+const watchJsCustom = '../assets/js/*.js';
 
 // Path to all PHP files.
 const watchPhp = '../**/*.php';
